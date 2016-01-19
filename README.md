@@ -1,2 +1,3 @@
 # PA3
 HighCs assignment for EC 327, Introduction to Software Engineering. 
+The game consists of sailors that can move between docks and ports, through simple commands. For example s 1 1 1, sails sailor 1 to location 1,1. Command p 1 2, sends sailor 1 to port 2 to drop off supplies. Command a 1, anchors sailor 1. Command d 2 1, sends sailor 2 to dock 1. Command h 3, hides sailor 3. Command g advances the time step by 1 so the each sailor is updated and moves depending on the commands given before. Run advances one time step and updates each game object until the function returns true, or five time ticks passes. 
